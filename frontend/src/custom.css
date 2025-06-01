@@ -1,0 +1,29 @@
+/* custom.css */
+
+body {
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.btn-custom {
+  background-color: #4e73df;
+  color: white;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #2e59d9;
+  transform: scale(1.03);
+}
+
+.card-custom {
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
